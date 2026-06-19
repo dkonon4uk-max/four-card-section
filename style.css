@@ -1,0 +1,143 @@
+/* початок стилів скидання для сторінки */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  margin: 0;
+
+}
+
+hr {
+  margin: 0;
+}
+
+/* кінець стилів скидання для сторінки */
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 64px;
+
+  h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+    margin-bottom: 2px;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+    margin-bottom: 12px;
+  }
+
+  p {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: rgb(77 79 98/0.5);
+    /* opacity: 0.5; */
+
+  }
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+div div {
+  flex-direction: column;
+}
+
+article {
+  width: 350px;
+  /* height: 250px; */
+  min-height: 250px;
+  /* border-top: 4px solid red; */
+  border-top-width: 4px;
+  border-top-style: solid;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 8px;
+  padding: 32px;
+  padding-bottom: 136px;
+  background-repeat: no-repeat;
+  background-position: right 32px bottom 32px;
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+    margin-bottom: 6px;
+  }
+  
+  p {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: rgb(77 79 98/0.5);
+    /* opacity: 0.5; */
+    /* margin-bottom: 104px; */
+  }
+  img{
+    margin-left: auto;
+    display: block;
+    margin-top: 40px;
+  }
+}
+.cyan {
+  border-top-color: #44D3D2;
+  background-image: url(./images/icon-supervisor.svg);
+}
+.red {
+  border-top-color: #EA5454;
+background-image: url(./images/icon-team-builder.svg);
+}
+.orange {
+  border-top-color: #FCAE4A;
+background-image: url(./images/icon-karma.svg);
+}
+.blue {
+  border-top-color: #549EF2;
+  background-image: url(./images/icon-calculator.svg);
+}
