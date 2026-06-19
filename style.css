@@ -141,3 +141,8 @@ background-image: url(./images/icon-karma.svg);
   border-top-color: #549EF2;
   background-image: url(./images/icon-calculator.svg);
 }
+@media(max-width:1120px){
+  div{
+    flex-direction: column;
+  }
+}
